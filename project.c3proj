@@ -35,7 +35,8 @@
 			"Mac_text",
 			"Linux_text",
 			"iOS_text",
-			"Android_text"
+			"Android_text",
+			"fondo"
 		],
 		"subfolders": []
 	},
