@@ -5,10 +5,38 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		}
+	],
 	"uniqueId": "1450vd0ngl5",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Windows_logo",
+			"Android_logo",
+			"iOS_logo",
+			"Mac_OS_X_logo",
+			"Linux_logo",
+			"Windows_text",
+			"Mac_text",
+			"Linux_text",
+			"iOS_text",
+			"Android_text"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -117,9 +145,7 @@
 		}
 	},
 	"timelines": {
-		"items": [
-			"Línea de tiempo 1"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [],
