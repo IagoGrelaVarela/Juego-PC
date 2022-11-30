@@ -1,41 +1,30 @@
 {
-	"name": "Linux_logo",
+	"name": "pegado_caja1",
 	"plugin-id": "Sprite",
-	"sid": 122493002437910,
+	"sid": 930330237623837,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "DragnDrop",
-			"name": "ArrastrarYSoltar",
-			"sid": 891668635299700
-		},
-		{
-			"behaviorId": "Pin",
-			"name": "Pegado",
-			"sid": 552368487070089
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1159,
-						"height": 1345,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 841091,
+						"imageSpriteId": 9129400,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 225596369569545,
-				"name": "Default",
+				"sid": 423562045720552,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

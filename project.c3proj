@@ -29,6 +29,14 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1450vd0ngl5",
@@ -45,13 +53,17 @@
 			"iOS_text",
 			"Android_text",
 			"fondo",
-			"box",
-			"box_back",
+			"box1",
+			"box_back1",
 			"box2",
 			"box_back2",
 			"pregunta",
 			"opcion1",
-			"opcion2"
+			"opcion2",
+			"pegado_caja1",
+			"pegado_caja2",
+			"caja1_punto",
+			"caja2_punto"
 		],
 		"subfolders": []
 	},

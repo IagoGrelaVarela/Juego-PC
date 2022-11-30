@@ -1,7 +1,7 @@
 {
-	"name": "box_back",
+	"name": "caja2_punto",
 	"plugin-id": "Sprite",
-	"sid": 828017447461672,
+	"sid": 473877176509497,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 960,
-						"height": 699,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5119517,
+						"imageSpriteId": 5375762,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 869388025332122,
-				"name": "Default",
+				"sid": 465024307469030,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

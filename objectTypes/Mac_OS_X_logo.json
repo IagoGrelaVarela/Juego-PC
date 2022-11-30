@@ -9,6 +9,11 @@
 			"behaviorId": "DragnDrop",
 			"name": "ArrastrarYSoltar",
 			"sid": 745989455724057
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 181130259775397
 		}
 	],
 	"effectTypes": [],
