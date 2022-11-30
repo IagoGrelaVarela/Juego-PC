@@ -1,47 +1,41 @@
 {
-	"name": "Windows_logo",
+	"name": "box",
 	"plugin-id": "Sprite",
-	"sid": 597290775033355,
+	"sid": 595629391231627,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "DragnDrop",
-			"name": "ArrastrarYSoltar",
-			"sid": 871715443103275
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1987,
-						"height": 1993,
-						"originX": 0.5037745344740815,
-						"originY": 0.5022579026593076,
+						"width": 962,
+						"height": 701,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4638738,
+						"imageSpriteId": 1202777,
 						"collisionPoly": {
 							"points": [
-								0.0005032712632108706,
-								0.0005017561465127947,
-								1,
-								0.0005017561465127947,
-								1,
-								1,
-								0.0005032712632108706,
-								1
+								0.0010395010395010396,
+								0.0014265335235378032,
+								0.998960498960499,
+								0.0014265335235378032,
+								0.998960498960499,
+								0.9985734664764622,
+								0.0010395010395010396,
+								0.9985734664764622
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 332666662911429,
+				"sid": 996699183057233,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

@@ -21,6 +21,14 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1450vd0ngl5",
@@ -36,7 +44,14 @@
 			"Linux_text",
 			"iOS_text",
 			"Android_text",
-			"fondo"
+			"fondo",
+			"box",
+			"box_back",
+			"box2",
+			"box_back2",
+			"pregunta",
+			"opcion1",
+			"opcion2"
 		],
 		"subfolders": []
 	},
