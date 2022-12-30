@@ -399,6 +399,27 @@
 				}
 			],
 			"sid": 562382911584546
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 819385401884095
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "aciertos",
+					"sid": 769878345202200,
+					"parameters": {
+						"text": "aciertos2"
+					}
+				}
+			],
+			"sid": 507392876425180
 		}
 	],
 	"sid": 617066754069855

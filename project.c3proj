@@ -75,7 +75,9 @@
 			"Botón",
 			"reintentar_text",
 			"caja1",
-			"caja2"
+			"caja2",
+			"aciertos_text",
+			"aciertos"
 		],
 		"subfolders": []
 	},
