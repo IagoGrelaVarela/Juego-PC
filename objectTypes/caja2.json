@@ -1,7 +1,7 @@
 {
-	"name": "box1",
+	"name": "caja2",
 	"plugin-id": "Sprite",
-	"sid": 595629391231627,
+	"sid": 508553470481415,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,31 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 962,
-						"height": 701,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 482,
+						"height": 474,
+						"originX": 0.491701244813278,
+						"originY": 0.4810126582278481,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8922406,
+						"imageSpriteId": 4949747,
 						"collisionPoly": {
 							"points": [
-								0.0010395010395010396,
-								0.0014265335235378032,
-								0.998960498960499,
-								0.0014265335235378032,
-								0.998960498960499,
-								0.9985734664764622,
-								0.0010395010395010396,
-								0.9985734664764622
+								0,
+								0,
+								0.9979253112033195,
+								0,
+								0.9979253112033195,
+								0.9978902953586498,
+								0,
+								0.9978902953586498
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 996699183057233,
+				"sid": 351358667816848,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
