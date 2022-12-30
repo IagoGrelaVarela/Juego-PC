@@ -77,7 +77,11 @@
 			"caja1",
 			"caja2",
 			"aciertos_text",
-			"aciertos"
+			"aciertos",
+			"pregunta2",
+			"final",
+			"Botón2",
+			"reiniciar_text"
 		],
 		"subfolders": []
 	},
@@ -98,7 +102,8 @@
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3"
 		],
 		"subfolders": []
 	},

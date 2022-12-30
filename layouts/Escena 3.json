@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 92,
+					"uid": 30,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -34,9 +34,124 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "final",
+					"properties": {
+						"text": "¡Enhorabuena!\nHas hecho un gran trabajo, sigue así.",
+						"enable-bbcode": true,
+						"font": "Source Code Pro",
+						"size": 60,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.2549019607843137,
+							0.2549019607843137,
+							0.2549019607843137,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 32,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 320,
+						"y": 256,
+						"width": 672,
+						"height": 512,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Botón2",
+					"properties": {
+						"type": "button",
+						"text": "",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 35,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 704,
+						"y": 704,
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "reiniciar_text",
+					"properties": {
+						"text": "Reiniciar:",
+						"enable-bbcode": true,
+						"font": "Source Code Pro",
+						"size": 18,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.13725490196078433,
+							0.13725490196078433,
+							0.13725490196078433,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 33,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 576,
+						"y": 704,
+						"width": 128,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 900217165844897,
+			"sid": 655811757297908,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -65,7 +180,7 @@
 			"global": false
 		}
 	],
-	"sid": 689057920661753,
+	"sid": 268056916812564,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 2560,
@@ -74,5 +189,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "Hoja de eventos 3"
 }
