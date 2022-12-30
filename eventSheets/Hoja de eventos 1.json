@@ -399,18 +399,6 @@
 				}
 			],
 			"sid": 217933263135477
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 336423484872309
-				}
-			],
-			"actions": [],
-			"sid": 813506812931618
 		}
 	],
 	"sid": 478643928842883

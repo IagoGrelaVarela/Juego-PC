@@ -61,10 +61,6 @@
 			"iOS_text",
 			"Android_text",
 			"fondo",
-			"box1",
-			"box_back1",
-			"box2",
-			"box_back2",
 			"pregunta",
 			"opcion1",
 			"opcion2",
@@ -73,7 +69,10 @@
 			"caja1_punto",
 			"caja2_punto",
 			"Botón",
-			"reintentar_text"
+			"reintentar_text",
+			"caja1",
+			"caja2",
+			"Texto"
 		],
 		"subfolders": []
 	},

@@ -1,5 +1,405 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "aciertos2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 877649243185926
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Windows_logo",
+					"sid": 997627750760158,
+					"parameters": {
+						"object": "caja1_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Windows_logo",
+					"sid": 341265919663639,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja1",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 204407949639629,
+					"parameters": {
+						"variable": "aciertos2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 162515001600755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Windows_logo",
+					"sid": 260348590991586,
+					"parameters": {
+						"object": "caja2_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Windows_logo",
+					"sid": 764057325232662,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja2",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 716357010034936
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mac_OS_X_logo",
+					"sid": 509223642015757,
+					"parameters": {
+						"object": "caja1_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Mac_OS_X_logo",
+					"sid": 227474979129204,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja1",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 982824003389672,
+					"parameters": {
+						"variable": "aciertos2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 827820367520337
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Mac_OS_X_logo",
+					"sid": 597943540093822,
+					"parameters": {
+						"object": "caja2_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Mac_OS_X_logo",
+					"sid": 654554655378965,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja2",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 930591314675987
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Linux_logo",
+					"sid": 663058476390849,
+					"parameters": {
+						"object": "caja1_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Linux_logo",
+					"sid": 348846820351441,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja1",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 662487500846783,
+					"parameters": {
+						"variable": "aciertos2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 376783658279642
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Linux_logo",
+					"sid": 746048425262919,
+					"parameters": {
+						"object": "caja2_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Linux_logo",
+					"sid": 260485896566249,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja2",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 593934243292702
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "iOS_logo",
+					"sid": 582488381274433,
+					"parameters": {
+						"object": "caja1_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "iOS_logo",
+					"sid": 245844987749076,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja1",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 499002360760068
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "iOS_logo",
+					"sid": 171034969674071,
+					"parameters": {
+						"object": "caja2_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "iOS_logo",
+					"sid": 469932843215364,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja2",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 374926816917598,
+					"parameters": {
+						"variable": "aciertos2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 644780577981918
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Android_logo",
+					"sid": 390155080129196,
+					"parameters": {
+						"object": "caja1_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Android_logo",
+					"sid": 456221611180855,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja1",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 799228384220538
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Android_logo",
+					"sid": 357119521831420,
+					"parameters": {
+						"object": "caja2_punto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Android_logo",
+					"sid": 838145686633567,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegado_caja2",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 378163124905973,
+					"parameters": {
+						"variable": "aciertos2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 996690328428545
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 872817386213660,
+					"parameters": {
+						"variable": "aciertos2",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 915293247174091,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 321102354148587
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 945205188177030
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 839535487494655
+				}
+			],
+			"sid": 562382911584546
+		}
+	],
 	"sid": 617066754069855
 }
