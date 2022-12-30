@@ -1,0 +1,48 @@
+{
+	"name": "iOS_logo",
+	"plugin-id": "Sprite",
+	"sid": 119501083415060,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 784791026006171
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 202786992781408
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 858,
+						"height": 858,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6279506,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 187107741342161,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
