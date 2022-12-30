@@ -2,6 +2,16 @@
 	"name": "Hoja de eventos 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "aciertos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 528671823660474
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -26,6 +36,15 @@
 						"width-type": "no",
 						"height-type": "no",
 						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 404184223645085,
+					"parameters": {
+						"variable": "aciertos",
+						"value": "1"
 					}
 				}
 			],
@@ -86,6 +105,15 @@
 						"width-type": "no",
 						"height-type": "no",
 						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 150424249978484,
+					"parameters": {
+						"variable": "aciertos",
+						"value": "1"
 					}
 				}
 			],
@@ -177,6 +205,15 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 313521290395693,
+					"parameters": {
+						"variable": "aciertos",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 233992214976974
@@ -206,6 +243,15 @@
 						"width-type": "no",
 						"height-type": "no",
 						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 115016572561981,
+					"parameters": {
+						"variable": "aciertos",
+						"value": "1"
 					}
 				}
 			],
@@ -297,9 +343,83 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 529827099008776,
+					"parameters": {
+						"variable": "aciertos",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 365783356701565
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 487379969271517,
+					"parameters": {
+						"variable": "aciertos",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 948472119471119,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 678598926163613
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 594230918957416
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 717910146901140
+				}
+			],
+			"sid": 217933263135477
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 408082995422326
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "aciertos",
+					"sid": 176778602325691,
+					"parameters": {
+						"text": "aciertos"
+					}
+				}
+			],
+			"sid": 598814153881493
 		}
 	],
 	"sid": 478643928842883
