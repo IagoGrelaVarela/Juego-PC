@@ -93,7 +93,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},
