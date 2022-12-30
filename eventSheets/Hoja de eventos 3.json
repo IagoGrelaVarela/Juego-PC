@@ -1,0 +1,45 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 483374377619686
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 157463580862769
+				}
+			],
+			"sid": 854269079682030
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 179075880529084
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 838389529898836,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 196077171867229
+		}
+	],
+	"sid": 551366942244610
+}
