@@ -81,7 +81,10 @@
 			"pregunta2",
 			"final",
 			"Botón2",
-			"reiniciar_text"
+			"reiniciar_text",
+			"final2",
+			"Botón3",
+			"iniciar_text"
 		],
 		"subfolders": []
 	},
@@ -93,6 +96,7 @@
 	},
 	"layouts": {
 		"items": [
+			"Inicio",
 			"Escena 1",
 			"Escena 2",
 			"Escena 3"
@@ -103,7 +107,8 @@
 		"items": [
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
-			"Hoja de eventos 3"
+			"Hoja de eventos 3",
+			"Hoja de eventos inicial"
 		],
 		"subfolders": []
 	},
