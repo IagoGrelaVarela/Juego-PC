@@ -5,66 +5,10 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [
-		{
-			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Text",
-			"name": "Texto",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "DragnDrop",
-			"name": "Arrastrar y soltar",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pin",
-			"name": "Pegado",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		}
-	],
+	"usedAddons": [],
 	"uniqueId": "1450vd0ngl5",
 	"objectTypes": {
-		"items": [
-			"Windows_logo",
-			"Android_logo",
-			"iOS_logo",
-			"Mac_OS_X_logo",
-			"Linux_logo",
-			"Windows_text",
-			"Mac_text",
-			"Linux_text",
-			"iOS_text",
-			"Android_text",
-			"fondo",
-			"box1",
-			"box_back1",
-			"box2",
-			"box_back2",
-			"pregunta",
-			"opcion1",
-			"opcion2",
-			"pegado_caja1",
-			"pegado_caja2",
-			"caja1_punto",
-			"caja2_punto"
-		],
+		"items": [],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -173,7 +117,9 @@
 		}
 	},
 	"timelines": {
-		"items": [],
+		"items": [
+			"Línea de tiempo 1"
+		],
 		"subfolders": [
 			{
 				"items": [],
